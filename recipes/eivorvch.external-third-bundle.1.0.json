@@ -1,4 +1,5 @@
 {
+  "ref": "e8395d9f1234567890abcdef1234567890abcdef",  // random 40-char hex (generate with openssl rand -hex 20)
   "bundles": {
     "Eivorvch\\ExternalThirdBundle\\ExternalThirdBundle": ["all"]
   },
@@ -6,6 +7,6 @@
     "config/": "%CONFIG_DIR%/"
   },
   "post-install-output": [
-    "<bg=green> ExternalThirdBundle routes auto-imported via config/routes/external_third_bundle.yaml </>"
+    "<bg=green> _____________ExternalThirdBundle routes auto-imported via config/routes/external_third_bundle.yaml </>"
   ]
 }
