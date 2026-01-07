@@ -1,5 +1,5 @@
 {
-  "ref": "e8395d9f1234567890abcdef1234567890abcdef",  // random 40-char hex (generate with openssl rand -hex 20)
+  "ref": "e8395d9f1234567890abcdef1234567890abcaaa",
   "bundles": {
     "Eivorvch\\ExternalThirdBundle\\ExternalThirdBundle": ["all"]
   },
