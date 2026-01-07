@@ -1,0 +1,5 @@
+# form receipe
+external_third_bundle:
+    resource: '@ExternalThirdBundle/src/Controller/'
+    type: attribute
+    prefix: /external-third-from-recipe-a
