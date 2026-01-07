@@ -1,8 +1,11 @@
 {
-    "bundles": {
-        "Eivorvch\\ExternalThirdBundle\\ExternalThirdBundle": ["all"]
-    },
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
-    }
+  "bundles": {
+    "Eivorvch\\ExternalThirdBundle\\ExternalThirdBundle": ["all"]
+  },
+  "copy-from-recipe": {
+    "config/": "%CONFIG_DIR%/"
+  },
+  "post-install-output": [
+    "<bg=green> ExternalThirdBundle routes auto-imported via config/routes/external_third_bundle.yaml </>"
+  ]
 }
