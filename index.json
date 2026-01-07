@@ -1,12 +1,7 @@
 {
-    "recipes": {
-        "eivorvch/external-third-bundle": {
-            "1.0": "recipes/eivorvch/external-third-bundle/1.0"
-        }
-    },
-    "_links": {
-        "repository": "github.com/xthyjdy/my-recipes",
-        "origin_template": "{package}:{version}@github.com/xthyjdy/my-recipes:main",
-        "recipe_template": "https://api.github.com/repos/xthyjdy/my-recipes/contents/recipes/{package_dotted}.{version}.json"
+  "recipes": {
+    "eivorvch/external-third-bundle": {
+      "1.0": "recipes/eivorvch.external-third-bundle.1.0.json"
     }
+  }
 }
